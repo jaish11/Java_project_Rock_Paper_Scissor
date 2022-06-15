@@ -1,8 +1,10 @@
+//Rock Paper Scissor
 import java.util.Random;
 import java.util.Scanner;
 public class Rock_Paper_scissor {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Welcome to the game Rock Paper Scissor");
         System.out.println("Enter 0 for rock,1 for paper,2 for scissor:");
         int userinput=sc.nextInt();
         Random random=new Random();
